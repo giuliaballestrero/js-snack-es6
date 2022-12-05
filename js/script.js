@@ -34,9 +34,6 @@ const studenti = [
 ]
 
 for (let i=0; i < studenti.length; i++) {
-
-    for (let chiavi in studenti){
-       console.log(studenti[chiavi]); 
-    }
+    console.log(studenti[i]);
     
 }
