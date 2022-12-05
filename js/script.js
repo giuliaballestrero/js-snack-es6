@@ -12,3 +12,31 @@ const studentessa = {
 for (let key in studentessa) {
     console.log(key, "->", studentessa[key])
 };
+
+
+const studenti = [
+    studente1 = {
+        name: "Giovanna",
+        lastname: "Corsi",
+        age:"25",
+    },
+    studente2 = {
+
+        name: "Mario",
+        lastname: "Pucci",
+        age:"35",
+    },
+    studente3 ={
+        name: "Chiara",
+        lastname: "Rossi",
+        age:"21",
+    }
+]
+
+for (let i=0; i < studenti.length; i++) {
+
+    for (let chiavi in studenti){
+       console.log(studenti[chiavi]); 
+    }
+    
+}
