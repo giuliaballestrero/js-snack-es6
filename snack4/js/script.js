@@ -26,5 +26,12 @@ const animals = [
 ];
 
 const mammiferi = animals.filter((animal) => animal.classe === 'mammiferi');
-
 console.log(mammiferi);
+
+const upperAnimals = animals.map ((animal) => {
+    animal.nome = animal.nome.charAt(0) + animal.nome.substring(1).toUpperCase ();
+
+    return animal;
+});
+
+console.log(upperAnimals);
